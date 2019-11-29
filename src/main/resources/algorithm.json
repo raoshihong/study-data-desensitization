@@ -1,0 +1,37 @@
+[
+  {
+    "id":"1",
+    "type":"regex",
+    "data":"(\\d{3})\\d{4}(\\d{4})",
+    "state":"true",
+    "desc":"手机号脱敏"
+  },
+  {
+    "id":"2",
+    "type":"regex",
+    "data":"",
+    "state":"true",
+    "desc":"身份证号脱敏"
+  },
+  {
+    "id":"3",
+    "type":"javascript",
+    "data":"",
+    "state":"true",
+    "desc":"姓名脱敏"
+  },
+  {
+    "id":"4",
+    "type":"groovy",
+    "data":"",
+    "state":"",
+    "desc":"姓名脱敏1"
+  },
+  {
+    "id":"5",
+    "type":"java",
+    "data":"mobileAlgorithm",
+    "state":"",
+    "desc":"姓名脱敏2"
+  }
+]

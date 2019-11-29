@@ -1,0 +1,32 @@
+[
+  {
+    "appId":"thor-channel",
+    "rules":[
+      {
+        "url":"",
+        "data":[
+          {
+            "type":"",
+            "filed":"person.name",
+            "algorithmId":"1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "appId":"thor-operation",
+    "rules":[
+      {
+        "url":"",
+        "data":[
+          {
+            "type":"",
+            "filed":"person.name",
+            "algorithmId":"1"
+          }
+        ]
+      }
+    ]
+  }
+]
