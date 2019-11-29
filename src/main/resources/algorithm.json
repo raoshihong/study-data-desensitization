@@ -16,7 +16,7 @@
   {
     "id":"3",
     "type":"javascript",
-    "data":"",
+    "data":"var a='aa'",
     "state":"true",
     "desc":"姓名脱敏"
   },
@@ -33,5 +33,12 @@
     "data":"mobileAlgorithm",
     "state":"",
     "desc":"姓名脱敏2"
+  },
+  {
+    "id":"6",
+    "type":"javascript",
+    "data":"var b='aa'",
+    "state":"true",
+    "desc":"姓名脱敏"
   }
 ]
