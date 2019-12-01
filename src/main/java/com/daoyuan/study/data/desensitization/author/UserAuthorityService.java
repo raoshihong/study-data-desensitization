@@ -5,4 +5,6 @@ package com.daoyuan.study.data.desensitization.author;
  */
 public interface UserAuthorityService {
 
+    boolean hashAuthor();
+
 }

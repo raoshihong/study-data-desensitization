@@ -1,24 +1,24 @@
 [
   {
     "id":"1",
-    "type":"regex",
-    "data":"(\\d{3})\\d{4}(\\d{4})",
+    "type":"java",
+    "data":"nameAlgorithm",
+    "state":"true",
+    "desc":"姓名脱敏"
+  },
+  {
+    "id":"2",
+    "type":"java",
+    "data":"mobileAlgorithm",
     "state":"true",
     "desc":"手机号脱敏"
   },
   {
-    "id":"2",
-    "type":"regex",
-    "data":"",
+    "id":"3",
+    "type":"java",
+    "data":"cnidAlgorithm",
     "state":"true",
     "desc":"身份证号脱敏"
-  },
-  {
-    "id":"3",
-    "type":"javascript",
-    "data":"var a='aa'",
-    "state":"true",
-    "desc":"姓名脱敏"
   },
   {
     "id":"4",

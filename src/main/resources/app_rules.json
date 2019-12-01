@@ -1,0 +1,143 @@
+[
+  {
+    "appId":"default",
+    "ruleType":"all",
+    "urlRules":[
+      {
+        "url":"all",
+        "method": "all",
+        "grantShowSource":true,
+        "userRole": "all",
+        "dataRules":[
+          {
+            "type":"",
+            "filedNamePath":"person.name",
+            "algorithmId":"1"
+          },
+          {
+            "type":"",
+            "filedNamePath":"person.name",
+            "algorithmId":"1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "appId":"thor-channel",
+    "ruleType":"part",
+    "urlRules":[
+      {
+        "url":"/thor-channel/api/v1/agent/get",
+        "method": "POST",
+        "grantShowSource":true,
+        "userRole": "",
+        "dataRules":[
+          {
+            "type":"",
+            "filedNamePath":"$.name",
+            "algorithmId":"1"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.mobile",
+            "algorithmId":"2"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.cnid",
+            "algorithmId":"3"
+          }
+        ]
+      },
+      {
+        "url":"/thor-channel/api/v1/agent/list",
+        "method": "POST",
+        "grantShowSource": false,
+        "dataRules":[
+          {
+            "type":"",
+            "filedNamePath":"$.[*].name",
+            "algorithmId":"1"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.[*].mobile",
+            "algorithmId":"2"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.[*].cnid",
+            "algorithmId":"3"
+          }
+        ]
+      },
+      {
+        "url":"/thor-channel/api/v1/agent/detail",
+        "method": "GET",
+        "grantShowSource": false,
+        "dataRules":[
+          {
+            "type":"",
+            "filedNamePath":"$.name",
+            "algorithmId":"1"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.mobile",
+            "algorithmId":"2"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.cnid",
+            "algorithmId":"3"
+          }
+        ]
+      },
+      {
+        "url":"/thor-channel/api/v1/agent/getChannel",
+        "method": "GET",
+        "grantShowSource": true,
+        "dataRules":[
+          {
+            "type":"",
+            "filedNamePath":"$.name",
+            "algorithmId":"1"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.agentVos[*].name",
+            "algorithmId":"1"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.agentVos[*].mobile",
+            "algorithmId":"2"
+          },
+          {
+            "type":"",
+            "filedNamePath":"$.agentVos[*].cnid",
+            "algorithmId":"3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "appId":"thor-operation",
+    "ruleType":"all",
+    "urlRules":[
+      {
+        "url":"",
+        "method": "POST",
+        "dataRules":[
+          {
+            "type":"",
+            "filedNamePath":"person.name",
+            "algorithmId":"1"
+          }
+        ]
+      }
+    ]
+  }
+]

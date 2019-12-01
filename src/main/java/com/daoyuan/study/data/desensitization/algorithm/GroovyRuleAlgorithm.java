@@ -4,7 +4,7 @@ import com.daoyuan.study.data.desensitization.domain.Algorithm;
 
 public class GroovyRuleAlgorithm implements RuleAlgorithm {
     @Override
-    public String algorithm(Algorithm algorithm, String source) {
+    public Object algorithm(Algorithm algorithm, Object source) {
         return null;
     }
 }

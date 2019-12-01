@@ -3,11 +3,11 @@ package com.daoyuan.study.data.desensitization.vo;
 import lombok.Getter;
 import lombok.Setter;
 
+import java.util.List;
+
 @Setter
 @Getter
-public class Person {
+public class ChannelVo {
     private String name;
-    private String mobile;
-    private String cnid;
-    private String birthday;
+    private List<AgentVo> agentVos;
 }

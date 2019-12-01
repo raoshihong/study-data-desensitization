@@ -4,7 +4,11 @@ import com.daoyuan.study.data.desensitization.domain.Algorithm;
 
 public class JavascriptRuleAlgorithm implements RuleAlgorithm {
     @Override
-    public String algorithm(Algorithm algorithm, String source) {
-        return null;
+    public Object algorithm(Algorithm algorithm, Object source) {
+
+        //采用javascript引擎处理js代码
+        String data = algorithm.getData();
+
+        return source;
     }
 }

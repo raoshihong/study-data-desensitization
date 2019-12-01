@@ -1,0 +1,23 @@
+[
+  {
+    "name": "huipu",
+    "price": 111,
+    "cpu": {
+      "name": "AMD"
+    }
+  },
+  {
+    "name": "lianxiang",
+    "price": 11.2,
+    "cpu": {
+      "name": "intel"
+    }
+  },
+  {
+    "name": "huawei",
+    "price": 9928,
+    "cpu": {
+      "name": "qiling"
+    }
+  }
+]
