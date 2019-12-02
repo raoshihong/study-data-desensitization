@@ -37,7 +37,7 @@
   {
     "id":"6",
     "type":"javascript",
-    "data":"var b='aa'",
+    "data":"function sensitivy(source){return 'abc'}",
     "state":"true",
     "desc":"姓名脱敏"
   }
